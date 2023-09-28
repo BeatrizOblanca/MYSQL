@@ -18,7 +18,7 @@ select nombre from medicos where id not in (select responsable from departamento
 
 -- APARTADO 7
 insert into pacientes (nombre, telefono, documento, email, nacimiento) values
-('bea2','659487939','35949584k', 'beatriz@gmail.com', '1992-11-13');
+('bea2','653456789','35949584k', 'beatriz@gmail.com', '1939-12-10');
 -- APARTADO 8
 update pacientes set telefono = '654321098' where documento= '35949584k';
 -- APARTADO 9
